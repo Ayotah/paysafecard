@@ -2036,14 +2036,6 @@
     window.addEventListener(
       "DOMContentLoaded",
       function () {
-        balanceCheck300814.initialize(this);
-        window.onBalanceCheckSubmit300814 = function (recaptchaToken) {
-          balanceCheck300814.getPinDetails(recaptchaToken);
-        };
-      }.bind(balanceCheckOptions300814)
-    );
-    window.onRecaptchaLoad300814 = function () {
-      grecaptcha.enterprise.render("balancecheck-submit300814");
       document.getElementById("balancecheck-submit300814").disabled = true;
     };
   </script>
